@@ -1,1 +1,2 @@
-# PetAdoptionPlatform
+# PetAdoptionPlatform - FurryFriendFinder
+
