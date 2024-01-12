@@ -13,6 +13,7 @@ namespace webapi.Models.Entities
         public string Password { get; set; }
         public string Email { get; set; }
         public UserRole UserRole { get; set; }
-
+        public virtual ICollection<AdoptionApplication> AdoptionApplications { get; set; }
+        public virtual ICollection<Pet> Pets { get; set; }
     }
 }

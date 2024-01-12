@@ -17,7 +17,9 @@ namespace webapi.Models.Entities
         public string HealthRecords { get; set; }
         public bool PetStatus { get; set; }
         public long PetOwnerId { get; set; }
+        public ICollection<Picture>? Pictures { get; set; }
         public virtual User PetOwner { get; set; }
+        public virtual ICollection<AdoptionApplication> Application { get; set; }
         public virtual Location Location { get; set; }
     }
 }
